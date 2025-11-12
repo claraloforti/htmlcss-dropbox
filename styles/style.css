@@ -36,10 +36,6 @@ main {
     padding-top: 50px;
 }
 
-.color-black {
-    color: black;
-}
-
 
 /* Header */
 
@@ -104,6 +100,7 @@ header a {
 .freccia {
     font-size: 30px;
     margin-top: 40px;
+    color: black;
 }
 
 .btn-prova-gratuita {
@@ -151,6 +148,12 @@ input {
 
 input:hover {
     border: 5px solid rgb(0, 98, 255);
+}
+
+/* Spunte blu*/
+
+.fa-check {
+    color: rgb(0, 98, 255);
 }
 
 /* Card primi tre piani e relativo contenuto*/
