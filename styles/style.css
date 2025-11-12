@@ -10,7 +10,7 @@ body {
 }
 
 .main-container {
-    width: 850px;
+    width: 900px;
     margin: 0 auto;
 }
 
@@ -120,7 +120,9 @@ header a {
     text-decoration: none;
 }
 
-/* Sezione Piani Business */
+/* Sezione Piani Business (Primi tre piani) */
+
+/* Titolo della sezione piani */
 
 .sezione-piani-titolo {
     padding-top: 180px;
@@ -136,19 +138,77 @@ label {
 margin-right: 40px;
 }
 
+/* Card primi tre piani e relativo contenuto*/
+
 .card {
     width: calc(100% / 3);
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.206);
     flex-direction: column;
     gap: 20px;
-    padding: 20px;
 }
 
-/* Sezione Enterprise Personalizzato (Quarto Piano)*/
+.user-piano {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.206);
+}
 
-.enterprise-personalizzato {
+.contenuto-card {
+    padding: 30px;
+}
+
+.nome-piano {
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+.dettagli-piano {
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+.btn-card {
+    text-decoration: none;
+}
+
+.acquista-ora {
+    gap: 5px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.lista-punti-salienti {
+   margin: 20px 0;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+.dettaglio-prezzo {
+    color: grey;
+}
+
+/* Sezione Enterprise Personalizzato (Quarto Piano) */
+
+.enterprise-2 {
     width: 100%;
     margin-top: 40px;
+}
+
+.enterprise-2-space-between {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.enterprise-2-descrizione {
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 20px;
 }
 
 

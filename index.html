@@ -62,80 +62,136 @@
 
         <!-- Sezione piani business -->
         <section class="main-container">
-
+            <!-- Titolo della sezione -->
             <h2 class="sezione-piani-titolo">Trova il piano business che fa per te</h2>
             <label><input type="checkbox" class="etichetta"> Fatturazione mensile</label>
             <label><input type="checkbox" class="etichetta"> Fatturazione annuale</label>
 
+            <!-- Primi tre piani Business -->
             <div class="piani-business flex">
+
+                <!-- Piano Professional -->
                 <div class="professional-piano card flex">
-                    <span><i class="fa-solid fa-user"></i> Singolo</span>
-                    <h3 class="nome-piano">Professional</h3>
-                    <span class="prezzo">&euro; 12.00</span>
-                    <span class="dettaglio-prezzo">/mese</span>
-                    <span><i class="fa-solid fa-user"></i> 1 utente</span>
-                    <span class="spazio-archiviazione"><i class="fa-solid fa-folder"></i> 5 TB di spazio di
-                        archiviazione sicuro</span>
-                    <span class="funzioni-piano"><i class="fa-solid fa-share-nodes"></i> Funzioni di produttività
-                        premium e condivisione file semplice e sicura</span>
-                        <a href="#" class="bg-blue">Prova gratis per 30 giorni</a>
-                        <span>oppure<a href="#">acquista ora</a></span>
-                        <span>Punti Salienti del piano</span>
-                        <ul>
+                    <span class="user-piano"><i class="fa-solid fa-user"></i> Singolo</span>
+                    <div class="contenuto-card">
+                        <!-- Nome piano -->
+                        <div class="nome-piano flex">
+                            <h3>Professional</h3>
+                            <span>&euro; 12.00</span>
+                            <span class="dettaglio-prezzo">/mese</span>
+                        </div>
+                        <!-- Dettagli piano -->
+                        <div class="dettagli-piano flex">
+                            <span><i class="fa-solid fa-user"></i> 1 utente</span>
+                            <span class="spazio-archiviazione"><i class="fa-solid fa-folder"></i> 5 TB di spazio di
+                                archiviazione sicuro</span>
+                            <span class="funzioni-piano"><i class="fa-solid fa-share-nodes"></i> Funzioni di
+                                produttività
+                                premium e condivisione file semplice e sicura</span>
+                        </div>
+                        <!-- Bottone -->
+                        <a href="#" class="bg-blue btn-card">Prova gratis per 30 giorni</a>
+                        <span class="acquista-ora flex">oppure<a href="#">acquista ora</a></span>
+                        <!-- Punti Salienti del piano -->
+                        <span><strong>Punti Salienti del piano</strong></span>
+                        <ul class="lista-punti-salienti">
                             <li>&check; Invia file fino a 100 GB con Dropbox Transfert</li>
                             <li>&check; Cartelle offline su dispositivi mobili</li>
                         </ul>
+                    </div>
                 </div>
 
+                <!-- Piano Advanced -->
                 <div class="advanced-piano card flex">
-                    <span><i class="fa-solid fa-user"></i> Team</span>
-                    <h3 class="nome-piano">Advanced</h3>
-                    <span class="prezzo">&euro; 18.00</span>
-                    <span class="dettaglio-prezzo">/utente/mese</span>
-                    <span><i class="fa-solid fa-user"></i> 3 o più utenti</span>
-                    <span class="spazio-archiviazione"><i class="fa-solid fa-folder"></i> Tutto lo spazio di cui ha bisogno il tuo team</span>
-                    <span class="funzioni-piano"><i class="fa-solid fa-share-nodes"></i> Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team</span>
-                        <a href="#" class="bg-blue">Prova gratis per 30 giorni</a>
-                        <span>oppure<a href="#">acquista ora</a></span>
-                        <span>Punti Salienti del piano</span>
-                        <ul>
+                    <span class="user-piano"><i class="fa-solid fa-users"></i> Team</span>
+                    <div class="contenuto-card">
+                        <!-- Nome piano -->
+                        <div class="nome-piano flex">
+                            <h3>Advanced</h3>
+                            <span>&euro; 18.00</span>
+                            <span class="dettaglio-prezzo">/utente/mese</span>
+                        </div>
+                        <!-- Dettagli piano -->
+                        <div class="dettagli-piano flex">
+                            <span><i class="fa-solid fa-users"></i> 3 o più utenti</span>
+                            <span class="spazio-archiviazione"><i class="fa-solid fa-folder"></i> Tutto lo spazio di cui
+                                ha
+                                bisogno il tuo team</span>
+                            <span class="funzioni-piano"><i class="fa-solid fa-share-nodes"></i> Sofisticate funzioni di
+                                controllo e per tenere al sicuro tutti i file del tuo team</span>
+                        </div>
+                        <!-- Bottone -->
+                        <a href="#" class="bg-blue btn-card">Prova gratis per 30 giorni</a>
+                        <span class="acquista-ora flex">oppure<a href="#">acquista ora</a></span>
+                        <!-- Punti Salienti del piano -->
+                        <span><strong>Punti Salienti del piano</strong></span>
+                        <ul class="lista-punti-salienti">
                             <li>&check; Nessun limite di spazio per i file</li>
                             <li>&check; Cartelle offline su dispositivi mobili</li>
                             <li>&check; Risparmio del 50% rispetto alle iscrizioni singole</li>
                             <li>&check; Possilibilità di inserire nuovi membri del team</li>
                             <li>&check; Gestione dei permessi in base ai ruoli</li>
                         </ul>
+                    </div>
                 </div>
 
+                <!-- Piano Enterprise 1-->
                 <div class="enterprise-piano card flex">
-                    <span><i class="fa-solid fa-user"></i> Azienda</span>
-                    <h3 class="nome-piano">Enterprise</h3>
-                    <span class="prezzo">Contattaci</span>
-                    <span class="dettaglio-prezzo">-</span>
-                    <span><i class="fa-solid fa-user"></i> 10 o più utenti</span>
-                    <span class="spazio-archiviazione"><i class="fa-solid fa-folder"></i> Soluzioni personalizzabili per la tua azienda</span>
-                    <span class="funzioni-piano"><i class="fa-solid fa-share-nodes"></i> Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala</span>
-                        <a href="#" class="bg-blue">Contattaci</a>
-                        <span>oppure<a href="#">acquista ora</a></span>
-                        <span>Punti Salienti del piano</span>
-                        <ul>
+                    <span class="user-piano"><i class="fa-solid fa-building"></i> Azienda</span>
+                    <div class="contenuto-card">
+                        <!-- Nome piano -->
+                        <div class="nome-piano flex">
+                            <h3>Enterprise</h3>
+                            <span>Contattaci</span>
+                            <span class="dettaglio-prezzo">-</span>
+                        </div>
+                        <!-- Dettagli piano -->
+                        <div class="dettagli-piano flex">
+                            <span><i class="fa-solid fa-user"></i> 10 o più utenti</span>
+                            <span class="spazio-archiviazione"><i class="fa-solid fa-folder"></i> Soluzioni
+                                personalizzabili
+                                per
+                                la tua azienda</span>
+                            <span class="funzioni-piano"><i class="fa-solid fa-share-nodes"></i> Assistenza
+                                personalizzata
+                                per
+                                aiutare gli amministratori in una gestione su larga scala</span>
+                        </div>
+                        <!-- Bottone -->
+                        <a href="#" class="bg-blue btn-card">Contattaci</a>
+                        <span class="acquista-ora flex">oppure<a href="#">acquista ora</a></span>
+                        <!-- Punti Salienti del piano -->
+                        <span><strong>Punti Salienti del piano</strong></span>
+                        <ul class="lista-punti-salienti">
                             <li>&check; Cartelle offline su dispositivi mobili</li>
                             <li>&check; Servizio assistenza 24/h</li>
                             <li>&check; Possibilità di personalizzazione totale</li>
                         </ul>
+                    </div>
                 </div>
 
             </div>
 
-            <div class="enterprise-personalizzato card flex">
-                <span><i class="fa-solid fa-user"></i> Team</span>
-                    <h3 class="nome-piano">Enterprise</h3>
-                    <a href="#" class="bg-blue">Contatta l'ufficio vendite</a>
-                    <span class="prezzo">Contatta l'ufficio vendite per i prezzi</span>
-                    <span>Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala.</span>
+
+            <!-- Piano Enterprise 2 -->
+            <div class="enterprise-2 card flex">
+                <span class="user-piano"><i class="fa-solid fa-user"></i> Team</span>
+                <div class="contenuto-card">
+
+                    <div class="enterprise-2-space-between flex">
+                        <h3>Enterprise</h3>
+                        <a href="#" class="bg-blue btn-card">Contatta l'ufficio vendite</a>
+                    </div>
+                    <div class="enterprise-2-descrizione flex">
+                    <span><strong>Contatta l'ufficio vendite per i prezzi</strong></span>
+                    <span>Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione
+                        su
+                        qualsiasi scala.</span>
+                        </div>
+                </div>
             </div>
 
-            
+
 
 
         </section>
