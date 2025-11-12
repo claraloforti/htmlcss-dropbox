@@ -21,3 +21,32 @@ body {
 ul {
     text-decoration: none;
 }
+
+
+/* Header */
+
+header {
+    height: 50px;
+}
+
+.navbar-container {
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    margin: 0 auto;
+    height: 50px;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-left, .navbar-right {
+    gap: 30px;
+}
+
+
+/* Main */
+
+/* Footer*/
