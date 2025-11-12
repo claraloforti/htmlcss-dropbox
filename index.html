@@ -11,6 +11,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+    <!-- Link Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
     <!-- Collegamento CSS-->
     <link rel="stylesheet" href="styles/style.css">
 </head>
@@ -38,7 +40,7 @@
 
     <!-- Main -->
     <main>
-
+        <!-- Sezione Hero -->
         <section class="hero">
             <div class="hero-title">
                 <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
@@ -49,7 +51,7 @@
                         Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato
                         per ottimizzare il flusso di lavoro esistente.</p>
                     <p class="btn-prova-gratuita"><a href="#" class="bg-blue">Inizia la tua prova gratuita</a></p>
-                    <p>Annulla in qualsiasi momento</p>
+                    <p class="margin-bottom">Annulla in qualsiasi momento</p>
                     <a href="#" class="freccia">&#8595;</a>
                 </div>
                 <div class="hero-img">
@@ -58,22 +60,93 @@
             </div>
         </section>
 
-        <section class="piani-business-section main-container flex">
-            <div class="title-section-piani">
-                <h3>Trova il piano business che fa per te</h3>
-                <span>Fatturazione mensile</span>
-                <span>Fatturazione annuale</span>
+        <!-- Sezione piani business -->
+        <section class="main-container">
+
+            <h2 class="sezione-piani-titolo">Trova il piano business che fa per te</h2>
+            <label><input type="checkbox" class="etichetta"> Fatturazione mensile</label>
+            <label><input type="checkbox" class="etichetta"> Fatturazione annuale</label>
+
+            <div class="piani-business flex">
+                <div class="professional-piano card flex">
+                    <span><i class="fa-solid fa-user"></i> Singolo</span>
+                    <h3 class="nome-piano">Professional</h3>
+                    <span class="prezzo">&euro; 12.00</span>
+                    <span class="dettaglio-prezzo">/mese</span>
+                    <span><i class="fa-solid fa-user"></i> 1 utente</span>
+                    <span class="spazio-archiviazione"><i class="fa-solid fa-folder"></i> 5 TB di spazio di
+                        archiviazione sicuro</span>
+                    <span class="funzioni-piano"><i class="fa-solid fa-share-nodes"></i> Funzioni di produttività
+                        premium e condivisione file semplice e sicura</span>
+                        <a href="#" class="bg-blue">Prova gratis per 30 giorni</a>
+                        <span>oppure<a href="#">acquista ora</a></span>
+                        <span>Punti Salienti del piano</span>
+                        <ul>
+                            <li>&check; Invia file fino a 100 GB con Dropbox Transfert</li>
+                            <li>&check; Cartelle offline su dispositivi mobili</li>
+                        </ul>
+                </div>
+
+                <div class="advanced-piano card flex">
+                    <span><i class="fa-solid fa-user"></i> Team</span>
+                    <h3 class="nome-piano">Advanced</h3>
+                    <span class="prezzo">&euro; 18.00</span>
+                    <span class="dettaglio-prezzo">/utente/mese</span>
+                    <span><i class="fa-solid fa-user"></i> 3 o più utenti</span>
+                    <span class="spazio-archiviazione"><i class="fa-solid fa-folder"></i> Tutto lo spazio di cui ha bisogno il tuo team</span>
+                    <span class="funzioni-piano"><i class="fa-solid fa-share-nodes"></i> Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team</span>
+                        <a href="#" class="bg-blue">Prova gratis per 30 giorni</a>
+                        <span>oppure<a href="#">acquista ora</a></span>
+                        <span>Punti Salienti del piano</span>
+                        <ul>
+                            <li>&check; Nessun limite di spazio per i file</li>
+                            <li>&check; Cartelle offline su dispositivi mobili</li>
+                            <li>&check; Risparmio del 50% rispetto alle iscrizioni singole</li>
+                            <li>&check; Possilibilità di inserire nuovi membri del team</li>
+                            <li>&check; Gestione dei permessi in base ai ruoli</li>
+                        </ul>
+                </div>
+
+                <div class="enterprise-piano card flex">
+                    <span><i class="fa-solid fa-user"></i> Azienda</span>
+                    <h3 class="nome-piano">Enterprise</h3>
+                    <span class="prezzo">Contattaci</span>
+                    <span class="dettaglio-prezzo">-</span>
+                    <span><i class="fa-solid fa-user"></i> 10 o più utenti</span>
+                    <span class="spazio-archiviazione"><i class="fa-solid fa-folder"></i> Soluzioni personalizzabili per la tua azienda</span>
+                    <span class="funzioni-piano"><i class="fa-solid fa-share-nodes"></i> Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala</span>
+                        <a href="#" class="bg-blue">Contattaci</a>
+                        <span>oppure<a href="#">acquista ora</a></span>
+                        <span>Punti Salienti del piano</span>
+                        <ul>
+                            <li>&check; Cartelle offline su dispositivi mobili</li>
+                            <li>&check; Servizio assistenza 24/h</li>
+                            <li>&check; Possibilità di personalizzazione totale</li>
+                        </ul>
+                </div>
+
             </div>
-            <div class="professional-piano"></div>
-            <div class="advanced-piano"></div>
-            <div class="enterprise-piano"></div>
-            <div class="enterprise-personalizzato"></div>
+
+            <div class="enterprise-personalizzato card flex">
+                <span><i class="fa-solid fa-user"></i> Team</span>
+                    <h3 class="nome-piano">Enterprise</h3>
+                    <a href="#" class="bg-blue">Contatta l'ufficio vendite</a>
+                    <span class="prezzo">Contatta l'ufficio vendite per i prezzi</span>
+                    <span>Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala.</span>
+            </div>
+
+            
+
+
         </section>
 
+        <!-- Sezione partner -->
         <section class="partner main-container flex"></section>
 
+        <!-- Sezione Operazioni -->
         <section class="dropbox-business-operations main-container flex"></section>
 
+        <!-- Sezione Clienti Business -->
         <section class="clienti-business main-container flex"></section>
 
     </main>
