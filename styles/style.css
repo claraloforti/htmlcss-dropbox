@@ -92,6 +92,7 @@ header a {
     margin: 0 auto;
     width: 950px;
     position: relative;
+    margin-bottom: 180px;
 }
 
 .hero-content {
@@ -125,7 +126,6 @@ header a {
 /* Titolo della sezione piani */
 
 .sezione-piani-titolo {
-    padding-top: 180px;
     padding-bottom: 50px;
 }
 
@@ -135,23 +135,22 @@ header a {
 }
 
 /* Etichette checkbox */
+
 label {
     margin-right: 40px;
 }
 
 input {
-appearance: none;
+    appearance: none;
     width: 20px;
     height: 20px;
     border-radius: 50%;
     vertical-align: middle;
-}
-.etichetta1 {
-    border: 5px solid rgb(0, 98, 255);
+    border: 2px solid #555;
 }
 
-.etichetta2 {
-    border: 2px solid #555;
+input:hover {
+    border: 5px solid rgb(0, 98, 255);
 }
 
 /* Card primi tre piani e relativo contenuto*/
