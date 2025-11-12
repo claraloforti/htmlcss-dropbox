@@ -36,6 +36,10 @@ main {
     padding-top: 50px;
 }
 
+.titolo-sezione {
+    margin-bottom: 50px;
+}
+
 
 /* Header */
 
@@ -121,10 +125,6 @@ header a {
 /* Sezione Piani Business (Primi tre piani) */
 
 /* Titolo della sezione piani */
-
-.sezione-piani-titolo {
-    padding-bottom: 50px;
-}
 
 .piani-business {
     margin-top: 40px;
@@ -262,6 +262,69 @@ li {
 
 /* Sezione Operazioni */
 
+.dropbox-business-operations {
+    flex-wrap: wrap;
+    gap: 5%;
+    margin-bottom: 100px;
+}
+
+figure {
+    width: calc(90% / 3);
+}
+
+figure h3,
+figure p {
+    margin-bottom: 30px;
+}
+
+/* Sezione clienti */
+
+.clienti-business {
+    margin-bottom: 100px;
+    ;
+}
 
 
-/* Footer*/
+/* Footer */
+
+/* Lista Footer */
+
+footer {
+    background-color: black;
+}
+
+.footer-container {
+    flex-direction: column;
+    justify-content: center;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.lista {
+    justify-content: space-between;
+    padding: 100px 0;
+    width: 100%;
+}
+
+ul {
+    width: 20%;
+}
+
+.title-list {
+    font-size: 22px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+/* Footer language */
+
+.language {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
