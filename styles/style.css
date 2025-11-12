@@ -134,8 +134,24 @@ header a {
     gap: 40px;
 }
 
+/* Etichette checkbox */
 label {
-margin-right: 40px;
+    margin-right: 40px;
+}
+
+input {
+appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.etichetta1 {
+    border: 5px solid rgb(0, 98, 255);
+}
+
+.etichetta2 {
+    border: 2px solid #555;
 }
 
 /* Card primi tre piani e relativo contenuto*/
@@ -182,7 +198,7 @@ margin-right: 40px;
 }
 
 .lista-punti-salienti {
-   margin: 20px 0;
+    margin: 20px 0;
 }
 
 li {
