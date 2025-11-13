@@ -196,7 +196,14 @@ input:hover {
 .acquista-ora {
     gap: 5px;
     margin-top: 30px;
-    margin-bottom: 60px;
+}
+
+.separatore {
+    height: 1px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 80px;
+    background-color: rgba(0, 0, 0, 0.150);
 }
 
 .lista-punti-salienti {
