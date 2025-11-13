@@ -10,7 +10,7 @@ body {
 }
 
 .main-container {
-    width: 900px;
+    width: 1000px;
     margin: 0 auto;
 }
 
@@ -82,15 +82,15 @@ header a {
 
 .hero-title {
     margin: 0 auto;
-    width: 950px;
+    width: 1050px;
     font-size: 22px;
-    padding-top: 60px;
-    padding-bottom: 20px;
+    padding-top: 80px;
+    padding-bottom: 40px;
 }
 
 .hero-container {
     margin: 0 auto;
-    width: 950px;
+    width: 1050px;
     position: relative;
     margin-bottom: 180px;
 }
@@ -103,7 +103,7 @@ header a {
 
 .freccia {
     font-size: 30px;
-    margin-top: 40px;
+    margin-top: 80px;
     color: black;
 }
 
@@ -115,7 +115,7 @@ header a {
     width: 70%;
     position: absolute;
     top: 10px;
-    left: 270px;
+    left: 300px;
 }
 
 .hero a {
@@ -161,13 +161,11 @@ input:hover {
 .card {
     width: calc(100% / 3);
     border: 1px solid rgba(0, 0, 0, 0.150);
-    flex-direction: column;
-    gap: 20px;
 }
 
 .user-piano {
-    padding: 10px;
     text-align: center;
+    padding: 10px;
     border-bottom: 2px solid rgba(0, 0, 0, 0.150);
 }
 
@@ -176,9 +174,7 @@ input:hover {
 }
 
 .nome-piano {
-    flex-direction: column;
-    justify-content: center;
-    gap: 10px;
+    line-height: 40px;
     margin-bottom: 40px;
 }
 
@@ -227,15 +223,14 @@ li {
     margin-bottom: 150px;
 }
 
-.enterprise-2-space-between {
+.enterprise-2-nome {
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 10px;
 }
 
 .enterprise-2-descrizione {
-    flex-direction: column;
-    gap: 40px;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 
@@ -300,16 +295,13 @@ footer {
 }
 
 .footer-container {
-    flex-direction: column;
-    justify-content: center;
-    width: 1100px;
+    width: 1200px;
     margin: 0 auto;
 }
 
 .lista {
     justify-content: space-between;
     padding: 100px 0;
-    width: 100%;
 }
 
 ul {
@@ -334,7 +326,7 @@ ul {
 .language {
     color: white;
     font-size: 20px;
-    margin-bottom: 40px;
+    padding-bottom: 50px;
 }
 
 footer a {
