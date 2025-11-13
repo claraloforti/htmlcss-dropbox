@@ -322,6 +322,13 @@ ul {
     font-weight: bold;
 }
 
+.separatore-footer {
+    height: 1px;
+    margin-bottom: 60px;
+    width: 80px;
+    background-color: white;
+}
+
 /* Footer language */
 
 .language {
