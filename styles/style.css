@@ -183,9 +183,7 @@ input:hover {
 }
 
 .dettagli-piano {
-    flex-direction: column;
-    justify-content: center;
-    gap: 10px;
+    width: 100%;
     margin-bottom: 40px;
 }
 
